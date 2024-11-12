@@ -80,9 +80,6 @@ The two experiments provided complementary approaches to data enrichment. **Expe
 
 ### Next Steps
 
-- **Hybrid Approach**: Combining API enrichment with a refined text-based classification can maximize coverage and accuracy for each data point.
-- **API Quota Management**: Explore other data sources or request increased API quotas for large datasets.
 - **Enhanced Classification Algorithms (In progress)**: Use machine learning models to classify industries based on company names with greater precision.
-
 
 
