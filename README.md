@@ -91,11 +91,16 @@ The goal of this experiment was to explore advanced classification methods to im
 
    **(1) DistilBERT**  
    - A pre-trained DistilBERT model was fine-tuned on the company dataset for text classification tasks.  
-   - Despite fine-tuning, the model exhibited poor generalization and overfitting, as seen in the training and validation metrics.  
+   - Despite fine-tuning, the model exhibited poor generalization and overfitting, as seen in the training and validation metrics.
+   
 
    **(2) Zero-shot Classification (Facebook BART-large-MNLI)**  
    - Zero-shot classification was explored for industry group prediction using "facebook/bart-large-mnli."  
    - While predictions aligned to candidate labels, the overall accuracy was low, demonstrating limited effectiveness for the dataset.  
+   
+   ![before smote_acc](https://github.com/user-attachments/assets/87ff40d9-2f28-4f92-86f6-64729c8e7865)
+
+   ![before smote_loss](https://github.com/user-attachments/assets/afdab58b-73f4-4373-b795-a551c2d09292)
 
    **(3) XGBoost**  
    - Text features were likely converted into numerical representations and classified using XGBoost.  
