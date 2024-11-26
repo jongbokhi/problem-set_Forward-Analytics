@@ -72,6 +72,7 @@ After observing limited enrichment in industry classifications in Experiment 1, 
 
 The text-based approach helped fill gaps in industry classification that the API-based method left. This approach can be useful in conjunction with API methods, especially for datasets where external data is limited or unavailable.
 
+---
 
 ## Experiment 3: Advanced Classification Approaches
 
