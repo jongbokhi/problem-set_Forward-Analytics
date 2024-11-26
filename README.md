@@ -107,13 +107,6 @@ The goal of this experiment was to explore advanced classification methods to im
    - Text features were likely converted into numerical representations and classified using XGBoost.  
    - Optuna was used for hyperparameter optimization to improve model performance. Despite this effort, the results remained suboptimal, suggesting the method was not significantly better than the transformer-based approaches.  
 
-###  Updated Challenges
-- **Too many class of industry**
-  Currently, the **Industry Classification** contains too many labels, making it necessary to establish specific criteria for consolidation. Based on my own judgment, I merged some classes into broader categories, while those that were not consolidated were    grouped under the "Other" label. This process can be reviewed in the **preprocessed_data** notebook.
-- **The machine's physical limits:** The dataset is too large, resulting in limitations on the local machine.
-- **Ambiguity in Keywords**: Some industry keywords overlapped with generic company names, leading to misclassifications.
-- **Incomplete Information**: The keyword-based method worked for common industries but struggled with niche industries or less descriptive company names.
-
 ---
 
 ### Updated Challenges
